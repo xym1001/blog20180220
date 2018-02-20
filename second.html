@@ -1,1 +1,28 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>老赫的博客</title>
+  <script src="https://cdn.bootcss.com/marked/0.3.12/marked.js"></script>
+  <link rel="stylesheet" href="https://typo.sofi.sh/typo.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+    body{
+      padding:16px;
+    }
+    img{
+      max-width:100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="content"></div>
+  <div id="app"></div>
+  <script>
+    var markdown = 
+     document.getElementById('content').innerHTML =
+      marked('# Marked in browser\n\nRendered by **marked**.\n\n[百度](http://baidu.com)');
+    var mark = document.getElementById('app').innerHTML = marked('# 我的第二篇博客\n\n**老赫**\n\n> 网上的名人名言都是我说的.  --沈从文\n\n大家好，我今天又进步了！\n\n![](https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1425814971,2274277142&fm=27&gp=0.jpg)');
+    </script>
+</body>
+</html>

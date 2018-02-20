@@ -7,4 +7,4 @@
 
 ## 如何预览
 
-点击https://xym1001.github.io/blog20180220/即可预览
+点击https://xym1001.github.io/blog20180220/ 即可预览
